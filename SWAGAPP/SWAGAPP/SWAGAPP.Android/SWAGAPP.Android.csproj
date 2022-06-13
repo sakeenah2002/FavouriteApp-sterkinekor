@@ -68,6 +68,14 @@
     <None Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\drawable\Baby3.heic" />
     <AndroidResource Include="Resources\drawable\baby5.webp" />
+    <AndroidResource Include="Resources\drawable\jacket11.webp" />
+    <AndroidResource Include="Resources\drawable\jacket22.webp" />
+    <AndroidResource Include="Resources\drawable\jeans11.webp" />
+    <AndroidResource Include="Resources\drawable\jeans22.webp" />
+    <AndroidResource Include="Resources\drawable\shirt11.webp" />
+    <AndroidResource Include="Resources\drawable\dress1.webp" />
+    <AndroidResource Include="Resources\drawable\shirt1.webp" />
+    <AndroidResource Include="Resources\drawable\dotnet3" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\styles.xml" />
@@ -126,6 +134,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\baby8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\shirt22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\dress2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\jacket1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\jeans1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\shirt2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

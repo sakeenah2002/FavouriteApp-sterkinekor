@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SWAGAPP.DataB;
+using SWAGAPP.Swag;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,18 @@ namespace SWAGAPP
         public Cart1()
         {
             InitializeComponent();
+
+            BindingContext = new Swag1();
+        }
+
+        private async void Saved(object sender, EventArgs e)
+        {
+            DataBase database = DataBase.Database;
+
+            Swag1 item = BindingContext as Swag1;
+
+            await database.SaveSwagItemAsync(item);
+
         }
     }
 }

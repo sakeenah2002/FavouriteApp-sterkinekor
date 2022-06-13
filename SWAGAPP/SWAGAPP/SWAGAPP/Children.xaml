@@ -18,7 +18,7 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-
+<!--Row0-->
             <ImageButton Source="baby1" Grid.Column="0" Grid.Row="0"  
                          Aspect="AspectFill" BackgroundColor="Transparent"
                          HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"
@@ -31,7 +31,7 @@
                          VerticalOptions="FillAndExpand"
                           BackgroundColor="Transparent"
                  Clicked="Price_Clicked"/>
-
+<!--Row1-->
             <ImageButton Source="baby3" Grid.Column="0" Grid.Row="1"  
                          Aspect="AspectFill" 
                          HorizontalOptions="FillAndExpand"
@@ -45,7 +45,7 @@
                          VerticalOptions="FillAndExpand"
                           BackgroundColor="Transparent"
                  Clicked="Price_Clicked"/>
-
+<!--Row 2-->
             <ImageButton Source="baby5" Grid.Column="0" Grid.Row="2"  
                          Aspect="AspectFill" 
                          HorizontalOptions="FillAndExpand"

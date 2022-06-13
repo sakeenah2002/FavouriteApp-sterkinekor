@@ -16,5 +16,10 @@ namespace SWAGAPP
         {
             InitializeComponent();
         }
+
+        private async void Price_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Cart1());
+        }
     }
 }

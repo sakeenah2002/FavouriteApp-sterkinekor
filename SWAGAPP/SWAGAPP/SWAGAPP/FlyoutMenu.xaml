@@ -14,6 +14,9 @@
                     <local:FlyoutNav Pages="Children" Navpages="{x:Type local:Children}"/>
                     <local:FlyoutNav Pages="Men" Navpages="{x:Type local:Men}"/>
                     <local:FlyoutNav Pages="Women" Navpages="{x:Type local:Women}"/>
+                    <local:FlyoutNav Pages="Settings" Navpages="{x:Type local:Home}"/>
+                    <local:FlyoutNav Pages="Help" Navpages="{x:Type local:Home}"/>
+                    <local:FlyoutNav Pages="Account" Navpages="{x:Type local:Home}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
